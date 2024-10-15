@@ -12,6 +12,8 @@ def setup():
 
 @app.route('/upload', methods=['POST'])
 def upload():
+
+    return
     
 
 @app.route('/testify', methods=['POST'])
@@ -20,7 +22,7 @@ def testify():
     return
 
 
-@app.route('/sendrank')
+@app.route('/sendrank', methods=['GET'])
 def sendrank():
 
     return
